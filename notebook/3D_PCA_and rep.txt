@@ -1,0 +1,61 @@
+from sklearn.decomposition import PCA
+
+from mpl_toolkits.mplot3d import Axes3D
+
+
+
+fig = plt.figure(1, figsize=(4, 3))
+plt.clf()
+ax = Axes3D(fig, rect=[0, 0, .95, 1], elev=48, azim=134)
+
+plt.cla()
+pca = PCA(n_components=3)
+pca.fit(data)
+matPCA = pca.transform(data)
+
+#ax.text3D(mat.mean(),horizontalalignment='center',bbox=dict(alpha=.5, edgecolor='w', facecolor='w'))
+# Reorder the labels to have colors matching the cluster results
+
+ax.scatter(matPCA[:, 0], matPCA[:, 1], matPCA[:, 2], cmap=plt.cm.spectral,
+           edgecolor='k')
+
+ax.w_xaxis.set_ticklabels([])
+ax.w_yaxis.set_ticklabels([])
+ax.w_zaxis.set_ticklabels([])
+
+plt.show()
+
+
+///////////////////
+
+
+fig = plt.figure(1, figsize=(4, 3))
+plt.clf()
+ax = Axes3D(fig, rect=[0, 0, .95, 1], elev=48, azim=134)
+
+plt.cla()
+
+ax.scatter(matPCA[:, 0], matPCA[:, 2], matPCA[:, 1], cmap=plt.cm.spectral,
+           edgecolor='k')
+
+ax.w_xaxis.set_ticklabels([])
+ax.w_yaxis.set_ticklabels([])
+ax.w_zaxis.set_ticklabels([])
+
+plt.show()
+
+
+
+////////////////////
+
+
+
+from sklearn.cluster import KMeans
+
+# Using sklearn
+km = KMeans(init='k-means++', n_clusters=10, n_init=10)
+km.fit(matPCA)
+# Get cluster assignment labels
+labels = km.labels_
+# Format results as a DataFrame
+results = pd.DataFrame([df.index,labels]).T
