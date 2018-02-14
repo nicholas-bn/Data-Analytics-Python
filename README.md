@@ -22,7 +22,7 @@ Non supervised learning from automobile dataset to predict what car is better fo
 - Application d'un KMeans pour prédire les clusters.
 - Visualisation graphique des clusters.
 
-![RésultatsClustering](https://i.imgur.com/4rJikkp.png)
+![RésultatsClustering](https://i.imgur.com/kK4GbRj.png)
 
 ### 3. Prédiction supervisé des nouveaux client du cluster approprié.
 
