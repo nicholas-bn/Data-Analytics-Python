@@ -25,4 +25,11 @@ Non supervised learning from automobile dataset to predict what car is better fo
 ![RésultatsClustering](https://i.imgur.com/4rJikkp.png)
 
 ### 3. Prédiction supervisé des nouveaux client du cluster approprié.
+
+[TODO]
+
 ### 4. Choix d'un véhicule dans le cluster prédit.
+
+[TODO]
+
+
