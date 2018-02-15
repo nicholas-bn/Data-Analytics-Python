@@ -6,7 +6,7 @@ Non supervised learning from automobile dataset to predict what car is better fo
 
 1. Préparation et Analyse de la data.
 2. Clustering des types de véhicules depuis le fichier Immatriculations.csv et ajout sur la colonne de train clients.
-3. Prédiction supervisé des nouveaux client du cluster approprié.
+3. Prédiction supervisé d'une catégorie de voiture pour les nouveaux clients.
 4. Choix d'un véhicule dans le cluster prédit.
 
 
@@ -24,7 +24,7 @@ Non supervised learning from automobile dataset to predict what car is better fo
 
 ![RésultatsClustering](https://i.imgur.com/kK4GbRj.png)
 
-### 3. Prédiction supervisé des nouveaux client du cluster approprié.
+### 3. Prédiction supervisé d'une catégorie de voiture pour les nouveaux clients.
 
 [TODO]
 
