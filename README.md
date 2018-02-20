@@ -1,5 +1,5 @@
 # Data-Analytics-Python
-Non supervised learning from automobile dataset to predict what car is better for a client.
+Application de plusieurs modèles de Machine Learning à partir de véhicules immatriculés et de clients pour prédire le véhicule le plus adapté.
 
 
 ## Différentes étapes pour la prédiction de véhicules pour les clients
