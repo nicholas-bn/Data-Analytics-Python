@@ -22,7 +22,7 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 - Application d'un KMeans pour prédire les clusters.
 - Visualisation graphique des clusters.
 
-![RésultatsClustering](https://i.imgur.com/kK4GbRj.png)
+![RésultatsClustering](https://i.imgur.com/MQpvgzg.png)
 
 ### 3. Prédiction supervisé d'une catégorie de voiture pour les nouveaux clients.
 
