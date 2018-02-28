@@ -37,3 +37,7 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 - Random parmi un véhicule dans le cluster.
 
 
+## Lancement des notebooks
+
+- Nécessite Jupyter Notebook (via Anaconda par exemple), de quelques package python (sklearn, numpy, missingno, etc.)
+- Lancer le notebook _"cluster_vehicule_EDA.ipynb"_ en premier pour produire le CSV _"immatriculation_and_cluster.csv"_ en amont nécessaire à _"Client_EDA.ipynb"_ qui contient les plaques et leur cluster respectifs.
