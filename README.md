@@ -12,7 +12,8 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 
 ### 1. Préparation et Analyse de la data
 
-[TODO]
+- Les données sont fragmentées en plusieurs fichiers CSV.
+- Etude des différents modéles a appliqué.
 
 ### 2. Clustering des types de véhicules depuis le fichier Immatriculations.csv et ajout sur la colonne de train clients.
 
@@ -26,10 +27,13 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 
 ### 3. Prédiction supervisé d'une catégorie de voiture pour les nouveaux clients.
 
-[TODO]
+- Nettoyage des datasets de client d’entraînement et à prédire
+- Application d’un StandardScaler
+- Jointure des clusters au client d’entrainement via le numéro de plaque d’immatriculation
+- Prédiction sur les nouveaux de cluster préférentiel.
 
 ### 4. Choix d'un véhicule dans le cluster prédit.
 
-[TODO]
+- Random parmi un véhicule dans le cluster.
 
 
