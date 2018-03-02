@@ -19,6 +19,7 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 
 - Analyse graphique/textuelle des datas.
 - Nettoyage de la data de Immatriculations.csv.
+- Application d’un StandardScaler
 - Application d'un PCA pour réduire en 2D.
 - Application d'un KMeans pour prédire les clusters.
 - Visualisation graphique des clusters.
