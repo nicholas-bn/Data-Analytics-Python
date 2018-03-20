@@ -31,7 +31,7 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 - Nettoyage des datasets de client d’entraînement et à prédire
 - Application d’un StandardScaler
 - Jointure des clusters au client d’entrainement via le numéro de plaque d’immatriculation
-- KFold + Catboostclassifier pour prédire les nouveaux clusters
+- (KFold peut-être) Catboostclassifier pour prédire les nouveaux clusters
 - (peut-être) ajout d'un Grid Search sur le CatBoostClassifier pour optimiser les paramétres
 
 ### 4. Choix d'un véhicule dans le cluster prédit.
@@ -41,5 +41,5 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 
 ## Lancement des notebooks
 
-- Nécessite Jupyter Notebook (via Anaconda par exemple), de quelques package python (sklearn, numpy, missingno, etc.)
+- Nécessite Jupyter Notebook (via Anaconda par exemple), de quelques package python (sklearn, pandas, numpy, missingno, etc.)
 - Lancer le notebook _"cluster_vehicule_EDA.ipynb"_ en premier pour produire le CSV _"immatriculation_and_cluster.csv"_ en amont nécessaire à _"Client_EDA.ipynb"_ qui contient les plaques et leur cluster respectifs.
