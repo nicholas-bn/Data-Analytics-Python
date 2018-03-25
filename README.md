@@ -31,8 +31,7 @@ Application de plusieurs modèles de Machine Learning à partir de véhicules im
 - Nettoyage des datasets de client d’entraînement et à prédire
 - Application d’un StandardScaler
 - Jointure des clusters au client d’entrainement via le numéro de plaque d’immatriculation
-- (KFold peut-être) Catboostclassifier pour prédire les nouveaux clusters
-- (peut-être) ajout d'un Grid Search sur le CatBoostClassifier pour optimiser les paramétres
+- Catboostclassifier pour prédire les nouveaux clusters
 
 ### 4. Choix d'un véhicule dans le cluster prédit.
 
